@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OMDb API Example with jQuery</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+      <a href="#" class="logo">OMDb API</a>
+    </div>
+  </header>
+  <section class="search-container">
+    <div class="wrapper">
+      <h1 class="hero">Film Arama</h1>
+      <form id="search-form">
+        <input type="text" id="search-form-input" placeholder="Film Adı" autocomplete="off">
+        <button type="button" id="search-form-btn">ARA</button>
+      </form>
+    </div>
+  </section>
+  <section class="last-search">
+    <div class="wrapper">
+      <h3 class="hero">Son Aramalar</h3>
+      <div id="last-search-body"></div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <main>
+      <section class="movie-detail">
+        <div id="movie-detail-body"></div>
+      </section>
+    </main>
+  </div>
+  <footer>
+    © 2019 OMDb API Example by HKD
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
