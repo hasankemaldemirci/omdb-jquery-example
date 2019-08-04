@@ -8,7 +8,7 @@ class Movie {
 
 function search(query) {
 	return $.ajax ({
-    url: "http://www.omdbapi.com/?apikey=63f944af",
+    url: "https://www.omdbapi.com/?apikey=63f944af",
     method: "get",
     data: {"s": query},
   });
@@ -16,7 +16,7 @@ function search(query) {
 
 function getMovie(id) {
 	return $.ajax ({
-    url: "http://www.omdbapi.com/?apikey=63f944af",
+    url: "https://www.omdbapi.com/?apikey=63f944af",
     method: "get",
     data: {"i": id},
   });
